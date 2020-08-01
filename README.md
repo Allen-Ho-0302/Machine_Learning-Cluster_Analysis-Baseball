@@ -1,4 +1,8 @@
+Introduction:
+
 Try to find out how MLB players' weight affect the time between their debut and Tommy John surgery date
+
+Methods:
 
 Gather data from Lahman's baseball database's 'People' table and list of players who underwent Tommy John surgery from Wikipedia
 
@@ -6,9 +10,9 @@ Use SQL Server to prepare the data
 
 Use Python(Spyder) to perform cluster analysis(heirarchical and k-means)
 
--------------------------------------------------------------------------------------------------------------------------------------------
+Results:
 
-Heirarchical clustering results:
+1.Heirarchical clustering:
 
 Dendrogram and scatterplot can all be found in png files
 
@@ -34,9 +38,8 @@ cluster_labels
 2                   11.675427        1.502052
 3                   10.062185        0.771779
 
--------------------------------------------------------------------------------------------------------------------------------------------------
 
-k-means clustering result:
+2.k-means clustering result:
 
 elbow plot and scatterplot can all be found in png files
 
